@@ -14,5 +14,3 @@ substitutions:
   _IMAGE: ${LOCATION}-docker.pkg.dev/${PROJECT_ID}/${_IMAGE_REPO}/${_IMAGE_NAME}:${_IMAGE_VERSION}
 options:
     dynamicSubstitutions: true
-# gcloud run deploy palm2-run-demo --port 7860 --image us-central1-docker.pkg.dev/sandbox2-363416/cloud-run-source-deploy/palm2-run-image:v1 --service-account=cloud-run-llm@argolis-rafaelsanchez-ml-dev.iam.gserviceaccount.com --allow-unauthenticated --region=europe-west4 --platform=managed  --project=argolis-rafaelsanchez-ml-dev
-# gcloud run deploy palm2-run-demo --port 7860 --image us-central1-docker.pkg.dev/sandbox2-363416/cloud-run-source-deploy/palm2-run-image:v1 --allow-unauthenticated --region=us-central1 --platform=managed  --project=sandbox2-363416
